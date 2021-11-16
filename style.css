@@ -1,0 +1,26 @@
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 7px 0;
+	background: #222325;
+	background: rgba(0,0,0, .8);
+	background-image: linear-gradient(90deg,#222325,#3b3c3f,#222325);
+	z-index:9000;
+	cursor: default;
+}
+
+#menu > * {
+	color: #a7a7a7;;
+	text-decoration: none;
+	margin: 0 1%;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: color 0.15s ease;
+}
+
+#menu a:hover, #menu a.a { 
+	color: white;
+}
