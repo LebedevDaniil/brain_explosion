@@ -32,3 +32,50 @@ body {
 #menu a:hover, #menu a.a { 
 	color: white;
 }
+
+#article, #banner {
+	border-radius: 8px;
+	box-shadow: rgb(27 20 65 / 10%) 0px 10px 20px 0px;
+	border: none;
+	/*
+	box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);
+	border: 1px solid rgba(0,0,0,.14);
+	*/
+	}
+
+#article {
+	max-width: 910px;
+	margin: auto;
+	margin-top: 78px;
+	text-align: justify;
+	padding: 15px 35px;
+	background: #fff;
+	}
+
+#banner {
+	display: block;
+	margin: auto;
+	margin-top: 18px;
+	margin-bottom: -10px;
+	padding: 5px;
+	max-width: 100%;
+	max-height: 100%;
+	width: 900px;
+	height: 150px;
+	transition: border 0.5s ease;
+	border: 1px solid rgba(0,0,0,.14);
+	box-shadow: none;
+	}
+
+#banner:hover {
+	border: 1px solid rgba(0,0,0,.34);
+	}
+
+#banner.big {
+	height: 250px;
+	}
+
+
+#article.index_russian > p {
+	text-indent: 25px;
+	}
