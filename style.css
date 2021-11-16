@@ -1,3 +1,11 @@
+body {
+	color: #333;
+	background: #F4F5F5;
+	line-height: 2em;
+	font-size: 12pt;
+	font-family: "Source Sans Pro", "Open Sans", sans-serif;
+}
+
 #menu {
 	position: fixed;
 	top: 0;
